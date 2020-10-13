@@ -1,0 +1,12 @@
+{% extends "base.html.twig" %}
+
+{% block body %}
+    <h1>Ajout d'une catégorie:</h1>
+    <form method="post">
+        <input type="text" name="Libelle" placeholder="Libellé">
+        <input type="text" name="Icone" placeholder="Icône">
+
+        <input type="submit" value="Enregistrer la catégorie" class="btn btn-info">
+    </form>
+
+{% endblock %}
